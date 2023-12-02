@@ -1,0 +1,82 @@
+*,html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: greenyellow;
+}
+.judul-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    background-color: green;
+    color: #fff;
+}
+.judul-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-size: 40px;
+    background-color:  green;
+    color :#fff;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    background-color: #fff;
+    max-resolution: 0px;
+}
+.profil {
+	overflow: hidden;
+	background-color: #E9E9E9;
+}
+.profil img {
+	width: 100%;
+	height: 100%;
+	border: 100% solid #fff;
+	}
+.profil .profilKiri {
+	width: 100%;
+	float: left;
+	position: relative;
+	
+	}
+.profil .profilKiri .text1 {
+	width: 100%;
+    right: 100%;
+	position: absolute;
+	top: 60px;
+	right: 35px;
+	}
+.profil .profilKiri .text1 h2 {
+	color: black;
+	}
+.profil .profilKanan {
+	width: 100%;
+	float: right;
+	position: relative;
+	margin-right: 0;
+	}
+.profil .profilKanan .text2 {
+	width:200%;
+	position: absolute;
+	left: 200px;
+    top: 190px;
+    size: 20px;
+	}
+.profil .profilKanan .text2 h2 {
+	color: black;
+	}
+.riski{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.riski:hover{
+    background-color: aqua;
+    transition-delay: 0.1s;
+    transition: 5s ease-in-out; 
+    border-radius: 10px;
+}
